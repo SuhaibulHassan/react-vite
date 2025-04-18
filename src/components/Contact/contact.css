@@ -1,0 +1,16 @@
+.contact{
+    background-image: url(../../assets/lawyers2.jpg);
+    background-size: cover;
+    padding: 5rem 10rem;
+    color: white;
+    height: 390px;
+    align-items: center;
+}
+
+.contact_button{
+    padding: 1rem;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    background-color: red;
+}

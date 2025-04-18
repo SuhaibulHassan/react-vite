@@ -1,0 +1,63 @@
+.navbar{
+    background-color: rgb(11, 11, 73);
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    font-weight: 400; 
+    margin: 2rem;
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
+
+.nested-list{
+    color: #000;
+    margin: 0;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nested-list a{
+    color: #000;
+}
+
+.about{
+    background-color: aliceblue;
+    color: black;
+    padding: 1rem;
+    position: absolute;
+    display: none;
+}
+
+.practice-areas{
+    background-color: aliceblue;
+    color: black;
+    padding: 1rem;
+    position: absolute;
+    display: none;
+}
+
+li:hover ul{
+    display: block;
+}
+
+li:hover ul a:hover{
+    color: red;
+}

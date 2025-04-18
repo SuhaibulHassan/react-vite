@@ -1,0 +1,61 @@
+.aboutus-image{
+    background-image: url(../../assets/blog1.jpeg);
+    background-size: cover;
+    font-size: xx-large;
+    padding: 10rem;
+    display: grid;
+    justify-content: center;
+    color: #fff;
+}
+
+.mission h1{
+    color: rgb(11, 11, 73);
+}
+
+.mission h6{
+    font-size: large;
+}
+
+.mission{
+    padding: 5rem;
+    display: grid;
+    justify-content: center;
+}
+
+.mission button{
+    padding: 1rem;
+    color: #fff;
+    background-color: red;
+    border: 1px solid red;
+    /* display: block;
+    margin: 0 auto; */
+}
+
+.values{
+    background: rgb(234, 233, 233);
+}
+
+.values h1{
+    padding-top: 3rem;
+}
+
+.values-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 3rem;
+}
+
+.values-box{
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.values-box h1{
+    color: rgb(193, 17, 17);
+}
+
+.values-box p{
+    font-size: medium;
+}

@@ -1,0 +1,21 @@
+.align-center{
+    display: flex;
+    justify-content: center;
+}
+
+.services_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,350px);
+    grid-auto-rows: 300px;
+    gap: 5rem;
+    padding: 5rem ;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.service-box{
+    padding: 2.5rem;
+    max-width: 350rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    background-color: #fff;
+}

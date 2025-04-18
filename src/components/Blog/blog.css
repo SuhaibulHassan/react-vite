@@ -1,0 +1,25 @@
+.blog{
+    background-image: url(../../assets/blog1.jpeg);
+    height: 40rem;
+    padding: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: xx-large;
+    color: #ffffff;
+}
+
+.blog_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,350px);
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 5rem;
+    padding: 5rem;
+}
+
+.blog_box{
+    color: rgb(5, 5, 103);
+    width: 300px;
+    padding: 2.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}

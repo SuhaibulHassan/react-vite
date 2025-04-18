@@ -1,0 +1,33 @@
+.team-image{
+    background-image: url(../../assets/blog1.jpeg);
+    padding: 10rem;
+    color: #fff;
+    font-weight: bolder;
+    font-size: x-large;
+    text-shadow: 0 4px 12px rgb(0,0,0,0.1);
+}
+
+.member-image img{
+    width: 400px;
+    position:relative;
+}
+
+.member-image h2{
+    position: absolute;
+}
+
+.team-members{
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill,400px);
+    grid-auto-rows: auto;
+    gap: 2rem;
+}
+
+.team-details{
+    display: grid;
+    place-items: center;
+}
+
+

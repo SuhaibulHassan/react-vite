@@ -1,0 +1,11 @@
+.hiring-image{
+    background-image: url(../../assets/Contactus.jpg);
+    background-size: cover;
+    width: auto;
+    height: 40rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: x-large;
+}

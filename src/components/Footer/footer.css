@@ -1,0 +1,24 @@
+.footer{
+    background-color: rgb(11, 11, 73);
+    display:grid;
+    grid-template-columns: repeat(auto-fill,350px);
+    gap: 5rem;
+    padding: 3rem;
+    color: #fff;
+}
+
+.company{
+    width: 300px;
+}
+
+.practice-areas{
+    width: 300px;
+}
+
+.subscription{
+    width: 300px;
+}
+
+.font{
+    font-size: large;
+}

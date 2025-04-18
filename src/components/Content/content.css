@@ -1,0 +1,26 @@
+.content-box{
+    background-image: url(../../assets/law.jpg);
+    padding: 10rem;
+    font-size: x-large;
+    color: white;
+    font-weight: 800;
+}
+
+.content-box h5{
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.contact-button{
+    padding: 1rem;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.contact-button:hover{
+    background-color: rgb(11, 11, 73);
+    border-color: rgb(11, 11, 73);
+}

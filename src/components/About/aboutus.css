@@ -1,0 +1,12 @@
+.align-para-center{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus{
+    background-color: rgb(234, 233, 233);
+    font-size: large;
+    padding: 2rem 6rem;
+}

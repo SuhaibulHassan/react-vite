@@ -1,0 +1,21 @@
+.container{
+    padding: 4rem;
+    background-color: rgb(249, 246, 246);
+    /* max-width: auto; */
+    height: 500px;
+}
+
+.review_container{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2rem;
+    overflow: auto;
+}
+
+.review_box{
+    padding: 4rem 2rem;
+    background-color: #fff;
+    width: 30rem;
+    font-size: larger;
+    color: rgb(92, 91, 91);
+}
