@@ -59,3 +59,12 @@
 .values-box p{
     font-size: medium;
 }
+
+@media (max-width: 768px){
+    .aboutus-image{
+        padding: 5rem;
+        display: grid;
+        justify-content: center;
+        color: #fff;
+    }
+}

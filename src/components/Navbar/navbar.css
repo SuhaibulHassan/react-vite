@@ -58,6 +58,50 @@ li:hover ul{
     display: block;
 }
 
-li:hover ul a:hover{
+/* li:hover ul a:hover{
     color: red;
+} */
+
+.nested-list a:hover{
+    color: red;
+}
+
+.nav-icon-div{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .right{
+        display: none;
+    }
+
+    .nav-icon-div{
+        display: block;
+    }
+
+    .nav-icon{
+        display: block;
+        font-size: xx-large;
+        margin: 2rem;
+    }
+
+    .nav-icon-list{
+        display: none;
+    }
+
+    .nav-icon:hover{
+        border: 1px solid #fff;
+        border-radius: 10%;
+    }
+
+    .nav-icon-div{
+        position: relative;
+    }
+
+    .nav-icon-list{
+        position: absolute;
+        background-color: #fff;
+        padding: 0.5rem;
+        width: 6rem;
+    }
 }

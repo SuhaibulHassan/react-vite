@@ -37,12 +37,12 @@ function App() {
       </p> */}
       <Router>
         <Routes>
-          <Route path='/' element={<Home/>}></Route>
-          <Route path='blogs' element={<BlogPage/>}></Route>
-          <Route path='contactus' element={<ContactPage/>}></Route>
-          <Route path='were-hiring' element={<HiringPage/>}></Route>
-          <Route path='about-us' element={<AboutPage/>}></Route>
-          <Route path='our-team' element={<TeamPage/>}></Route>
+          <Route path='/react-vite' element={<Home/>}></Route>
+          <Route path='/react-vite/blogs' element={<BlogPage/>}></Route>
+          <Route path='/react-vite/contactus' element={<ContactPage/>}></Route>
+          <Route path='/react-vite/were-hiring' element={<HiringPage/>}></Route>
+          <Route path='/react-vite/about-us' element={<AboutPage/>}></Route>
+          <Route path='/react-vite/our-team' element={<TeamPage/>}></Route>
         </Routes>
       </Router>
     </>

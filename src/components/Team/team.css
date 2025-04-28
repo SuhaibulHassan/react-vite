@@ -1,5 +1,7 @@
 .team-image{
     background-image: url(../../assets/blog1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 10rem;
     color: #fff;
     font-weight: bolder;
@@ -30,4 +32,8 @@
     place-items: center;
 }
 
-
+@media (max-width: 768px){
+    .team-image{
+        padding: 5rem;
+    }
+}

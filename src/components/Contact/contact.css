@@ -1,9 +1,10 @@
 .contact{
     background-image: url(../../assets/lawyers2.jpg);
     background-size: cover;
-    padding: 5rem 10rem;
+    padding: 10rem;
     color: white;
-    height: 390px;
+    display: grid;
+    justify-content: center;
     align-items: center;
 }
 
@@ -13,4 +14,10 @@
     font-size: medium;
     color: white;
     background-color: red;
+}
+
+@media (max-width: 768px){
+    .contact{
+        padding: 5rem;
+    }
 }

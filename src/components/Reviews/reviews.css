@@ -19,3 +19,10 @@
     font-size: larger;
     color: rgb(92, 91, 91);
 }
+
+@media (max-width: 768px){
+    .review_box{
+        width: 20rem;
+        padding: 2rem 1rem;
+    }
+}

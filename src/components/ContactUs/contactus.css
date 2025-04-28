@@ -1,7 +1,7 @@
 .contact-image{
     background-image: url(../../assets/Contactus.jpg);
     background-size: cover;
-    height: 40rem;
+    padding: 10rem;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -34,4 +34,18 @@
 
 .contact-info{
     padding: 3rem 1rem 1rem 5rem;
+}
+
+@media (max-width: 768px){
+    .contact-image{
+        padding: 5rem;
+    }
+
+    .contact-form{
+        width: 15rem;
+    }
+
+    .message-box{
+        width: 15rem;
+    }
 }
